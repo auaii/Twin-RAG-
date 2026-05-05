@@ -1,0 +1,30 @@
+🚀 Professional Summary: Petcharat "Auaii" Limprasert
+I am a Cloud Developer & AI Specialist with a robust foundation in Industrial Engineering. I specialize in bridging the gap between complex industrial logic and cutting-edge Generative AI.
+
+My expertise includes architecting Multi-agent systems and RAG (Retrieval-Augmented Generation) using LangChain and LangGraph. I am proficient in Infrastructure as Code (IaC) via Terraform and CloudFormation, ensuring scalable and secure deployments on AWS. My technical depth extends to Time Series Analysis and Machine Learning with expertise in XGBoost and ARIMA.
+
+Currently, I'm focused on driving AWS internal enablement and Cloud Fundamentals at eCloudvalley (ASEAN + HK). I am also actively pursuing the AWS Certified Generative AI Developer – Professional certification to lead the next wave of AI-driven transformation.
+
+My background includes achieving 1st Runner-up at the Vision Language Model for Smart Manufacturing Hackathon for developing an Intelligent Quality Control Agent. I have also developed and evaluated LawLens, a specialized legal AI system tested against rigorous Bar Association examinations.
+
+🛠️ Why this profile is "Tung" (The Highlights)
+The Architect's Mindset: ไม่ใช่แค่คนเขียนโค้ด แต่เป็นคนวางโครงสร้างระบบ (Solution Architecture) ที่มองเห็นภาพรวมทั้ง AWS, Docker, และ Kubernetes.
+
+Proven Track Record: มีรางวัลระดับ 1st Runner-up จาก Hackathon สาย Manufacturing เป็นเครื่องการันตีความสามารถในการประยุกต์ใช้ Multi-agent System ในงานจริง.
+
+Cutting-Edge Focus: กำลังมุ่งสู่การเป็น AWS Certified Generative AI Developer - Professional ซึ่งเป็นกลุ่มคนกลุ่มแรกๆ ที่จะถือใบเซอร์ระดับสูงในสายงานที่ใหม่ที่สุดของ AWS.
+
+High-Performance Setup: ทำงานด้วยเครื่องมือระดับท็อปอย่าง MacBook Pro M5 Pro และ Keychron K2 Pro เพื่อประสิทธิภาพสูงสุดในงาน Developer.
+
+Enterprise Integration: ไม่ได้ทำแค่โปรเจกต์รายย่อย แต่มีประสบการณ์ทำงานกับ eCloudvalley เพื่อดูแลระบบในระดับ ASEAN + HK.
+
+📍 Contact & Professional Details
+Name: Petcharat Limprasert (Auaii)
+
+Role: Cloud Developer & AI Specialist
+
+Education: B.Eng. in Industrial Engineering, KMITL (Class of 2025)
+
+Location: Bangkok, Thailand (Rama 9 Area)
+
+LinkedIn: linkedin.com/in/petcharat-limprasert-3125a92a2/

@@ -1,0 +1,23 @@
+{
+  "full_name": "Petcharat Limprasert",
+  "name": "Auaii",
+  "current_role": "Cloud Developer & AI Specialist (GenAI, RAG & Multi-agent Systems)",
+  "location": "Bangkok, Thailand (MRT Rama 9 / Thanapoom Building area)",
+  "email": "au2546boss@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/petcharat-limprasert-3125a92a2/",
+  "specialties": [
+    "Generative AI Development (LangChain, LangGraph, RAG Architectures)",
+    "Cloud Solutions Architecture (AWS Certified Generative AI Developer Professional track)",
+    "Multi-agent Systems & Intelligent QC Agents",
+    "Time Series Analysis & Machine Learning (XGBoost, ARIMA, skforecast)",
+    "DevOps & IaC (Terraform, CloudFormation, Docker, Kubernetes)"
+  ],
+  "years_experience": 0.5,
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Industrial Engineering",
+      "institution": "King Mongkut's Institute of Technology Ladkrabang",
+      "year": "2025"
+    }
+  ]
+}
