@@ -1,8 +1,9 @@
 fastapi
 uvicorn
-groq
 python-dotenv
 python-multipart
 boto3
 pypdf
 mangum
+
+# This Version not use GROQ because use Bedrock Instead of that
