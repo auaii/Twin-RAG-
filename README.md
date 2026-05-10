@@ -80,6 +80,27 @@ chmod +x scripts/*.sh
 
 ---
 
+## 🔄 ระบบ CI/CD & Environment Management (GitHub Actions)
+
+โปรเจกต์นี้ได้รับการยกระดับการจัดการ Infrastructure และ Deployment สู่มาตรฐาน Professional DevOps ด้วย **GitHub Actions** และ **Terraform S3 Backend**:
+
+### 🛠 สิ่งที่เพิ่มเข้ามาล่าสุด:
+1. **Remote State Management**: เก็บสถานะของ Terraform (State) ไว้บน **Amazon S3** พร้อมระบบ State Locking ด้วย **DynamoDB** ทำให้การรัน CI/CD หรือทำงานเป็นทีมปลอดภัยมากยิ่งขึ้น
+2. **OIDC Authentication**: เชื่อมต่อ GitHub Actions กับ AWS ผ่าน **OpenID Connect (OIDC)** โดยไม่ต้องเก็บ Access Key ถาวรไว้ใน GitHub Secrets เพื่อความปลอดภัยสูงสุด (Least Privilege)
+3. **Automated CI/CD Workflows**:
+   - **Deploy Workflow (`deploy.yml`)**: ทำการ Build และ Deploy ระบบขึ้น AWS อัตโนมัติทุกครั้งที่มีการ Push โค้ด (เช่น branch `ProdwithCICD`) รวมไปถึงรองรับการรัน Manual เพื่อเลือก Environment (`dev`, `test`, `prod`) ได้ด้วย
+   - **Destroy Workflow (`destroy.yml`)**: Workflow สำหรับสั่งลบ (Teardown) Infrastructure ของ Environment นั้นๆ บน AWS ผ่านหน้าเว็บ GitHub ได้ทันที พร้อมระบบพิมพ์ชื่อ Environment เพื่อยืนยัน ป้องกันการลบพลาด
+
+### ⚙️ การใช้งาน GitHub Actions CI/CD:
+หากต้องการใช้งานระบบ Automate นี้ใน Repository ของคุณ ให้ไปตั้งค่า **Repository Secrets** (ใน Settings > Secrets and variables > Actions) ดังนี้:
+- `AWS_ACCOUNT_ID`: หมายเลข AWS Account 12 หลัก
+- `DEFAULT_AWS_REGION`: รีเจี้ยนที่ใช้งาน (เช่น `us-east-1`)
+- `AWS_ROLE_ARN`: ARN ของ IAM Role ที่ผูกกับ OIDC Provider (เช่น `arn:aws:iam::...:role/github-actions-twin-deploy`)
+
+เมื่อตั้งค่าครบแล้ว ทุกครั้งที่มีการอัปเดตและ Push โค้ด ระบบจะรันคำสั่ง Terraform ให้โดยอัตโนมัติ!
+
+---
+
 ## 👨‍💻 ผู้พัฒนา
 
 **Petcharat Limprasert (Auaii)**  
