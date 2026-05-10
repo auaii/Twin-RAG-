@@ -39,4 +39,3 @@ Thumbs.db
 
 # AWS
 .aws/
-**/.terraform/
