@@ -37,3 +37,7 @@ uv.lock
 .idea/
 *.swp
 .DS_Store
+
+backend/lambda-package/
+backend/lambda-deployment.zip
+**/__pycache__/
