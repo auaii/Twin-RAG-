@@ -19,7 +19,7 @@ def main():
     # Install dependencies using Docker with Lambda runtime image
     print("Installing dependencies for Lambda runtime...")
 
-    # Use the official AWS Lambda Python 3.12 image
+    # Use the official AWS Lambda Python 3.13 image
     # This ensures compatibility with Lambda's runtime environment
     subprocess.run(
         [
